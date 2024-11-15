@@ -1,0 +1,9 @@
+<mat-toolbar id="navbar" class="navbar">
+  <ul>
+    <li><a routerLink="/search" [ngClass]="{'active': currentRoute === '/search'}">Search</a></li>
+    <li><a routerLink="/home" [ngClass]="{'active': currentRoute === '/home'}">Home</a></li>
+    <li><a href="/table" [ngClass]="{'active': currentRoute === '/table'}">Details</a></li>
+    <li><a href="/recentlyDeletedTasks" [ngClass]="{'active': currentRoute === '/recentlyDeletedTasks'}">Recently Deleted Tasks</a></li>
+    <li><a routerLink="/about" [ngClass]="{'active': currentRoute === '/about'}">About</a></li>
+  </ul>
+</mat-toolbar>

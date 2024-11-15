@@ -1,0 +1,48 @@
+
+
+mat-toolbar {
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 5px;
+    z-index: 1000;
+    padding: 0;
+    height: 10vh;
+    background-color: transparent;
+    transition-duration:0.3s;
+    /* Ensures the toolbar is above other content */
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 25px;
+    padding: 0;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a.active {
+    color: yellowgreen;
+    padding: 3px;
+    border-bottom: 2px solid yellowgreen;
+}
+
+
+.navbar.scrolled{
+    transition-duration:0.3s;
+    height:8vh;
+    top:0;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,43 @@
+*{
+    background: transparent;
+}
+
+.add{
+    color: white;
+    background-color: darkgreen;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.title{
+    margin-right: 50px;
+    
+}
+
+#shift{
+    margin-left: 75px;
+}
+
+#title,#desc{
+    background-color: white;
+}
+
+.Container {
+    display: flex; /* This makes the container a flex container */
+    justify-content: center; /* Horizontally center the items within the container */
+    align-items: center; /* Vertically center the items within the container */
+    border: 2px solid black;
+    width: 80vw;
+    margin: 0 auto; /* Horizontally center the container itself */
+    height: 100px;
+    background-color: cadetblue;
+}
+
+.heading {
+    background-color: greenyellow;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    /* align-self: center; No need for align-self if container is centered */
+}

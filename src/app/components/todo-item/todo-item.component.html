@@ -1,0 +1,11 @@
+<div class="todoItem">
+  <h3 [ngClass]="{'strike': !todo.active}">{{todo.sno}}. {{todo.title | capitalize:'titleCase'}} </h3>
+  <p>Description: {{todo.desc|capitalize:'sentenceCase'}}</p>    
+  <div class="actions">
+    <button class="delete" (click)="onClick(todo)">Delete</button>
+    <form action="post" class="form1">
+      <input type="checkbox" name="box" id="box" (change)="onCheckBoxClick(todo)">
+      <label for="box">Completed</label>
+    </form>
+  </div>
+</div>

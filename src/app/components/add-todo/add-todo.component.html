@@ -1,0 +1,13 @@
+<h1 class="heading">Add New Task</h1>
+<div class="Container">
+<form action="post" (ngSubmit)= "onSubmit()">
+    <label for="title" class="title">Enter The Title</label>
+    <label for="desc" class="desc" id="shift">Enter The Description</label>
+    <br>
+    <input type="text" name="title" id="title" class="title" [(ngModel)]="title" placeholder="Title" >
+    <input type="text" name="desc" id="desc" class="desc" [(ngModel)]="desc" placeholder="Description" >
+    <br>    
+    <button class="add" type="submit">Add the task</button>
+</form> 
+</div>
+  

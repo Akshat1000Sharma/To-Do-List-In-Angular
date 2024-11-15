@@ -1,0 +1,14 @@
+
+
+mat-toolbar {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    z-index: 1000;
+    padding: 0;
+    height: 5vh;
+    margin-bottom: 0;
+    background-color: black;
+    /* Ensures the toolbar is above other content */
+}

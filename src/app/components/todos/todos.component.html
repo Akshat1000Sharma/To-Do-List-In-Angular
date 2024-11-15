@@ -1,0 +1,8 @@
+<app-add-todo (todoAdd)="addTodo($event)"></app-add-todo>
+<h3 class="title">CURRENT TODO LIST:</h3>
+<div class="todoList">
+<div *ngIf="this.todos.length == 0">NO TASKS IN THE CURRENT LIST</div>
+<ul *ngFor="let todo of todos">
+    <app-todo-item [todo]="todo" (todoDelete)="deleteTodo($event)" (todoCheckBox)="toggleTodo($event)"></app-todo-item>
+</ul>
+</div>
